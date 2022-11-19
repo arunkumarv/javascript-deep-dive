@@ -1,0 +1,27 @@
+{
+  "name": "javascript-deep-dive",
+  "version": "1.0.0",
+  "description": "- [x] promise inside promise   - some thing is wrong [code](promise-inside-promise.js) - [ ] observables - create it in vanilla js - [ ] How view and viewModel works - [ ] AMD, CommonJS, etc. - [ ] Chrome Devtools various storages - [ ] webworker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"rollup --config rollup.config.mjs",
+    "watch":"rollup --config rollup.config.mjs -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arunkumarv/javascript-deep-dive.git"
+  },
+  "keywords": [],
+  "author": "",
+  "devDependencies": {
+    "rollup": "^3.2.5",
+    "rollup-plugin-ts": "^3.0.2",
+    "typescript": "^4.8.4"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arunkumarv/javascript-deep-dive/issues"
+  },
+  "homepage": "https://github.com/arunkumarv/javascript-deep-dive#readme"
+}
